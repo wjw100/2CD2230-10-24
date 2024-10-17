@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bingo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #number {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        #history {
+            margin-top: 20px;
+            height: 100px;
+            overflow-y: scroll;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        button {
+            font-size: 20px;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Bingo</h1>
+    <div id="number">番号</div>
+    <button id="drawButton">番号</button>
+    
+    <div id="history">
+        <h3>历史记录</h3>
+        <ul id="historyList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
